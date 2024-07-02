@@ -1,0 +1,14 @@
+{
+  "id": "b83d7441-20df-4938-8415-4820101fc852",
+  "sourceUrl": "/about",
+  "sourceRetainQuerystring": true,
+  "targetUrl": "/about/redirected",
+  "targetStatusCode": 301,
+  "targetProjectMapNodeId": "3df90891-da1e-4759-917c-1075a670125f",
+  "projectMapId": "8a35c419-5150-4f76-aa21-7e4976c9dfcb",
+  "sourceMustMatchDomain": false,
+  "targetPreserveIncomingProtocol": true,
+  "targetPreserveIncomingDomain": true,
+  "targetMergeQuerystring": true,
+  "labelAsSystem": false
+}

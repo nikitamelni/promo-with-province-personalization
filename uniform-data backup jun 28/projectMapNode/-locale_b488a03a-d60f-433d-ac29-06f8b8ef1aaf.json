@@ -1,0 +1,13 @@
+{
+  "id": "b488a03a-d60f-433d-ac29-06f8b8ef1aaf",
+  "name": "Home",
+  "order": -300,
+  "path": "/:locale",
+  "type": "composition",
+  "pathSegment": ":locale",
+  "data": {
+    "previewValue": ""
+  },
+  "compositionId": "4df94712-1b67-4830-be4b-55ed5166682a",
+  "projectMapId": "8a35c419-5150-4f76-aa21-7e4976c9dfcb"
+}

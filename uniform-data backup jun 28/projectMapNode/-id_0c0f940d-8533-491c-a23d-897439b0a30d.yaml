@@ -1,0 +1,10 @@
+id: 0c0f940d-8533-491c-a23d-897439b0a30d
+name: details
+type: composition
+data:
+  previewValue: ''
+order: 200
+path: /dynamic/:id
+compositionId: 7efa6a12-3016-408d-9e2d-35ea1fde5c91
+pathSegment: ':id'
+projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb

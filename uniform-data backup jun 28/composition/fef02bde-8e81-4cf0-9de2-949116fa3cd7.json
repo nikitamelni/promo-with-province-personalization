@@ -1,0 +1,137 @@
+{
+  "composition": {
+    "_name": "Multiple signals test",
+    "_id": "fef02bde-8e81-4cf0-9de2-949116fa3cd7",
+    "_slug": "multiple-signals-test",
+    "type": "page",
+    "slots": {
+      "content": [
+        {
+          "_id": "f0e65131-bf41-4179-9770-b6f78e986728",
+          "type": "$personalization",
+          "slots": {
+            "pz": [
+              {
+                "_id": "86a3cde6-0a9d-47a9-b4cd-042d8e6b7b3c",
+                "type": "$test",
+                "slots": {
+                  "test": [
+                    {
+                      "_id": "3449779e-2382-4ba9-9e15-971e12b334b4",
+                      "type": "hero",
+                      "parameters": {
+                        "title": {
+                          "type": "text",
+                          "value": "Project appolo & channle paid search"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "_id": "a6a3ba30-8ba6-451c-b4b6-c2ff2ae55e64",
+                "type": "hero",
+                "parameters": {
+                  "title": {
+                    "type": "text",
+                    "value": "Project appolo"
+                  },
+                  "$pzCrit": {
+                    "type": "$pzCrit",
+                    "value": {
+                      "crit": [
+                        {
+                          "l": "projectAppolo",
+                          "r": "100",
+                          "op": "="
+                        }
+                      ],
+                      "name": "Hero: Project appolo"
+                    }
+                  }
+                }
+              },
+              {
+                "_id": "f0585db6-4753-4488-910b-79e9e5a6eed0",
+                "type": "hero",
+                "parameters": {
+                  "title": {
+                    "type": "text",
+                    "value": "expvar=paidsearch-nonbrand-houston-general"
+                  },
+                  "$pzCrit": {
+                    "type": "$pzCrit",
+                    "value": {
+                      "crit": [
+                        {
+                          "l": "expvar",
+                          "r": "100",
+                          "op": "="
+                        }
+                      ],
+                      "name": "Hero: expvar=paidsearch-nonbrand-houston-general"
+                    }
+                  }
+                }
+              },
+              {
+                "_id": "e8636afd-4234-4fb0-8a48-cfbe3662994c",
+                "type": "hero",
+                "parameters": {
+                  "title": {
+                    "type": "text",
+                    "value": "Default variant"
+                  }
+                }
+              }
+            ]
+          },
+          "parameters": {
+            "trackingEventName": {
+              "type": "text",
+              "value": "expvar1"
+            }
+          }
+        },
+        {
+          "_id": "fbdd7d2d-0fa7-41ad-b334-a6e34b7d212c",
+          "type": "$test",
+          "slots": {
+            "test": [
+              {
+                "_id": "8ef8c325-ed4a-423a-baf1-b5f7dc31b815",
+                "type": "hero",
+                "parameters": {
+                  "$tstVrnt": {
+                    "type": "testVariant",
+                    "value": {
+                      "id": "B",
+                      "testDistribution": 30
+                    }
+                  }
+                }
+              },
+              {
+                "_id": "4ebb0de0-0ead-4eca-9af4-5672e335a339",
+                "type": "hero",
+                "parameters": {
+                  "$tstVrnt": {
+                    "type": "testVariant",
+                    "value": {
+                      "id": "A",
+                      "testDistribution": 70
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "created": "2024-05-09T16:08:13.757224+00:00",
+  "modified": "2024-05-09T17:27:32.759412+00:00",
+  "pattern": false
+}

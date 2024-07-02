@@ -1,0 +1,12 @@
+{
+  "composition": {
+    "_name": "Home",
+    "_id": "4df94712-1b67-4830-be4b-55ed5166682a",
+    "_slug": ":locale",
+    "type": "page",
+    "parameters": {}
+  },
+  "created": "2024-06-28T20:17:56.753944+00:00",
+  "modified": "2024-06-28T20:17:56.753944+00:00",
+  "pattern": false
+}

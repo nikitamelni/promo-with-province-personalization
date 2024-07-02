@@ -1,0 +1,11 @@
+{
+  "id": "00b5c16d-a927-4d28-8d71-a6fd60829d19",
+  "name": "multi",
+  "order": -100,
+  "path": "/multi",
+  "type": "composition",
+  "pathSegment": "multi",
+  "data": {},
+  "compositionId": "cc2aa6cf-f1d7-45a7-923c-21da3bf10a49",
+  "projectMapId": "8a35c419-5150-4f76-aa21-7e4976c9dfcb"
+}

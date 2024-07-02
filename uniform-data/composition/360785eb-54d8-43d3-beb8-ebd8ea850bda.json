@@ -1,0 +1,25 @@
+{
+  "composition": {
+    "_name": "test2",
+    "_id": "360785eb-54d8-43d3-beb8-ebd8ea850bda",
+    "_slug": "test2",
+    "type": "page",
+    "slots": {
+      "content": [
+        {
+          "_id": "701bb041-fed2-4a2d-ac1b-eabc2e1133e3",
+          "type": "hero",
+          "parameters": {
+            "title": {
+              "type": "text",
+              "value": "Test 2 5:22"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "created": "2024-03-07T04:00:54.460173+00:00",
+  "modified": "2024-03-20T21:22:17.730028+00:00",
+  "pattern": false
+}

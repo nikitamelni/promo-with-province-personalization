@@ -1,0 +1,123 @@
+{
+  "composition": {
+    "_name": "multi",
+    "_id": "cc2aa6cf-f1d7-45a7-923c-21da3bf10a49",
+    "_slug": "multi",
+    "type": "page",
+    "slots": {
+      "content": [
+        {
+          "_id": "1fa85cd3-2981-47f9-9779-d6328a201e6e",
+          "type": "$test",
+          "slots": {
+            "test": [
+              {
+                "_id": "77a1d1eb-f96e-41a7-974d-81f55efbc46a",
+                "type": "hero",
+                "parameters": {
+                  "title": {
+                    "type": "text",
+                    "value": "A/B test1, variant1"
+                  },
+                  "$tstVrnt": {
+                    "type": "testVariant",
+                    "value": {
+                      "id": "v1"
+                    }
+                  }
+                }
+              },
+              {
+                "_id": "7b5541c7-5b4f-456d-b84d-8b9f9320aa72",
+                "type": "hero",
+                "parameters": {
+                  "title": {
+                    "type": "text",
+                    "value": "A/B test1, variant2"
+                  },
+                  "$tstVrnt": {
+                    "type": "testVariant",
+                    "value": {
+                      "id": "v2"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "parameters": {
+            "test": {
+              "type": "testSelect",
+              "value": "abTestMulti1"
+            }
+          }
+        },
+        {
+          "_id": "01e736a0-8da9-46b7-9b15-253adac27992",
+          "type": "$test",
+          "slots": {
+            "test": [
+              {
+                "_id": "bb0cddc8-321c-4951-a52e-61204ab3eb63",
+                "type": "hero",
+                "parameters": {
+                  "title": {
+                    "type": "text",
+                    "value": "A/B test2, variant1"
+                  },
+                  "$tstVrnt": {
+                    "type": "testVariant",
+                    "value": {
+                      "id": "v1"
+                    }
+                  }
+                }
+              },
+              {
+                "_id": "3d63ce04-d734-4601-a78e-e010f2f31c70",
+                "type": "hero",
+                "parameters": {
+                  "title": {
+                    "type": "text",
+                    "value": "A/B test2, variant2"
+                  },
+                  "$tstVrnt": {
+                    "type": "testVariant",
+                    "value": {
+                      "id": "v2"
+                    }
+                  }
+                }
+              },
+              {
+                "_id": "961a4adb-31f7-4fb5-9924-91e4c14a691f",
+                "type": "hero",
+                "parameters": {
+                  "title": {
+                    "type": "text",
+                    "value": "####"
+                  },
+                  "$tstVrnt": {
+                    "type": "testVariant",
+                    "value": {
+                      "id": "v3"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "parameters": {
+            "test": {
+              "type": "testSelect",
+              "value": "abTestMulti1"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "created": "2024-05-01T22:35:16.830502+00:00",
+  "modified": "2024-05-01T22:58:28.090416+00:00",
+  "pattern": false
+}

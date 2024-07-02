@@ -1,0 +1,132 @@
+{
+  "project": {
+    "pz": {
+      "sig": {
+        "channelPaidSearchBrand": {
+          "str": 100,
+          "cap": 100,
+          "dur": "t",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "type": "QS",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "paidsearch-brand"
+                },
+                "queryName": "channel"
+              }
+            ]
+          }
+        },
+        "cookieSignal1": {
+          "str": 50,
+          "cap": 100,
+          "dur": "p",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "type": "CK",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": 123
+                },
+                "cookieName": "test1"
+              }
+            ]
+          }
+        },
+        "expvar": {
+          "str": 100,
+          "cap": 100,
+          "dur": "t",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "type": "QS",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "paidsearch-nonbrand-houston-general"
+                },
+                "queryName": "expvar"
+              }
+            ]
+          }
+        },
+        "launchCampaign": {
+          "str": 50,
+          "cap": 100,
+          "dur": "t",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "type": "QS",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "launch"
+                },
+                "queryName": "utm_campaign"
+              }
+            ]
+          }
+        },
+        "projectAppolo": {
+          "str": 100,
+          "cap": 100,
+          "dur": "t",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "type": "QS",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "apollo"
+                },
+                "queryName": "project"
+              }
+            ]
+          }
+        },
+        "qs": {
+          "str": 50,
+          "cap": 100,
+          "dur": "t",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "type": "QS",
+                "match": {
+                  "op": "*"
+                },
+                "queryName": "qs"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "test": {
+      "another2": {},
+      "aboutUsHero1": {},
+      "aboutUsRedirectedHero1": {},
+      "abTestMulti1": {}
+    }
+  }
+}

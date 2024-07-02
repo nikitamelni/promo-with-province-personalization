@@ -1,0 +1,12 @@
+{
+  "composition": {
+    "_name": "About",
+    "_id": "b6a391cf-d25c-4f14-a226-8d6d22601afa",
+    "_slug": "about",
+    "type": "page",
+    "parameters": {}
+  },
+  "created": "2024-03-08T19:39:04.387329+00:00",
+  "modified": "2024-03-08T19:39:04.387329+00:00",
+  "pattern": false
+}

@@ -1,0 +1,61 @@
+{
+  "composition": {
+    "_name": "redirected",
+    "_id": "a27ff2a7-4e8f-44eb-acc8-b30dfeb136d0",
+    "_slug": "redirected",
+    "type": "page",
+    "slots": {
+      "content": [
+        {
+          "_id": "1915ee00-91a1-492f-bb03-8fe457b2a9f8",
+          "type": "$test",
+          "slots": {
+            "test": [
+              {
+                "_id": "3a717bb3-16e0-412d-8748-a1b9c52ce63a",
+                "type": "hero",
+                "parameters": {
+                  "title": {
+                    "type": "text",
+                    "value": "Variant b"
+                  },
+                  "$tstVrnt": {
+                    "type": "testVariant",
+                    "value": {
+                      "id": "B"
+                    }
+                  }
+                }
+              },
+              {
+                "_id": "2d2af8a3-bd40-47b7-a838-e8533988e91f",
+                "type": "hero",
+                "parameters": {
+                  "title": {
+                    "type": "text",
+                    "value": "Redirected from about us"
+                  },
+                  "$tstVrnt": {
+                    "type": "testVariant",
+                    "value": {
+                      "id": "A"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "parameters": {
+            "test": {
+              "type": "testSelect",
+              "value": "aboutUsRedirectedHero1"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "created": "2024-03-08T18:56:24.14656+00:00",
+  "modified": "2024-04-30T18:09:52.605328+00:00",
+  "pattern": false
+}

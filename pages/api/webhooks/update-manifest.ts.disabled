@@ -1,0 +1,32 @@
+import type { NextApiRequest, NextApiResponse } from "next";
+import { ManifestClient } from "@uniformdev/context/api";
+import { ManifestV2 } from "@uniformdev/context/*";
+
+let updatedManifest: ManifestV2 | undefined;
+
+const manifestClient = new ManifestClient({
+  apiKey: process.env.UNIFORM_API_KEY,
+  projectId: process.env.UNIFORM_PROJECT_ID,
+});
+
+export default async function handler(
+  req: NextApiRequest,
+  res: NextApiResponse
+) {
+  if (
+    req.headers["x-verification-secret"] === process.env.UNIFORM_PREVIEW_SECRET
+  ) {
+    const downloadedManifest = await manifestClient.get();
+    updatedManifest = downloadedManifest;
+
+    res.status(200).send("OK");
+    return;
+  } else {
+    res.status(403).send(JSON.stringify({ reason: "not authorized" }));
+    return;
+  }
+}
+
+export function getUpdatedManifest() {
+  return updatedManifest;
+}

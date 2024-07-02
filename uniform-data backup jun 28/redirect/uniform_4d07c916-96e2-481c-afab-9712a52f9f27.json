@@ -1,0 +1,12 @@
+{
+  "id": "4d07c916-96e2-481c-afab-9712a52f9f27",
+  "sourceUrl": "/uniform",
+  "sourceRetainQuerystring": true,
+  "targetUrl": "https://uniform.dev",
+  "targetStatusCode": 301,
+  "sourceMustMatchDomain": false,
+  "targetPreserveIncomingProtocol": true,
+  "targetPreserveIncomingDomain": true,
+  "targetMergeQuerystring": true,
+  "labelAsSystem": false
+}

@@ -1,0 +1,89 @@
+{
+  "composition": {
+    "_name": "test1",
+    "_id": "2545a116-f82a-405e-a338-45c88389d8e6",
+    "_slug": "test1",
+    "type": "page",
+    "slots": {
+      "content": [
+        {
+          "_id": "1126ee5c-92ec-4e4f-b0d0-89e28303b0b3",
+          "type": "$personalization",
+          "slots": {
+            "pz": [
+              {
+                "_id": "03304aec-f252-4031-a5f0-7e6f3a3e9326",
+                "type": "hero",
+                "parameters": {
+                  "title": {
+                    "type": "text",
+                    "value": "qs"
+                  },
+                  "$pzCrit": {
+                    "type": "$pzCrit",
+                    "value": {
+                      "crit": [
+                        {
+                          "l": "qs",
+                          "r": "100",
+                          "op": ">="
+                        }
+                      ],
+                      "name": ""
+                    }
+                  }
+                }
+              },
+              {
+                "_id": "d8049ca5-1ffe-4ae3-952c-c68f31262563",
+                "type": "hero",
+                "parameters": {
+                  "title": {
+                    "type": "text",
+                    "value": "title"
+                  },
+                  "$pzCrit": {
+                    "type": "$pzCrit",
+                    "value": {
+                      "crit": [
+                        {
+                          "l": "cookieSignal1",
+                          "r": "100",
+                          "op": ">="
+                        }
+                      ],
+                      "name": ""
+                    }
+                  }
+                }
+              },
+              {
+                "_id": "70d275ea-a8f8-4540-a270-b988011b52ae",
+                "type": "hero",
+                "parameters": {
+                  "title": {
+                    "type": "text",
+                    "value": "ythft"
+                  }
+                }
+              }
+            ]
+          },
+          "parameters": {
+            "count": {
+              "type": "number",
+              "value": 1
+            },
+            "trackingEventName": {
+              "type": "text",
+              "value": "test1-Hero"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "created": "2024-03-06T23:54:59.787708+00:00",
+  "modified": "2024-04-18T02:08:09.447315+00:00",
+  "pattern": false
+}

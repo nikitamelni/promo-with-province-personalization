@@ -1,0 +1,93 @@
+{
+  "composition": {
+    "_name": "Promo Pattern",
+    "_id": "5c2217ae-b80b-4d8d-a5d6-1db73728ebc5",
+    "type": "hero",
+    "parameters": {
+      "title": {
+        "type": "text",
+        "value": "${#jptr:/Promo Content/fields/title}"
+      },
+      "description": {
+        "type": "richText",
+        "value": {
+          "root": {
+            "type": "root",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "type": "paragraph",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "variable",
+                    "version": 1,
+                    "reference": "#jptr:/Promo Content/fields/description"
+                  }
+                ],
+                "direction": null
+              }
+            ],
+            "direction": null
+          }
+        }
+      },
+      "eligibleProvinces": {
+        "type": "$block",
+        "value": [
+          {
+            "_id": "48042fb0-524e-4480-8bfb-83e1b2cc0b93",
+            "type": "$loop",
+            "fields": {
+              "body": {
+                "type": "$block",
+                "value": [
+                  {
+                    "_id": "ff21011d-0fa8-46ca-8dbe-eecdff035e37",
+                    "type": "province",
+                    "fields": {
+                      "code": {
+                        "type": "text",
+                        "value": "${#jptr:/Promo Content provinces Loop Item/fields/officialAbbreviation}"
+                      },
+                      "name": {
+                        "type": "text",
+                        "value": "${#jptr:/Promo Content provinces Loop Item/fields/name}"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "_dataResources": {
+              "Promo Content provinces Loop Item": {
+                "type": "sys-reserved-loop",
+                "variables": {
+                  "connectedData": "#jptr:/Promo Content/fields/provinces:fa=c"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "_dataResources": {
+      "Promo Content": {
+        "type": "singlePromo",
+        "variables": {
+          "locale": "",
+          "entryIds": "4lUcFpIppuSHrcgPgskRg5"
+        },
+        "isPatternParameter": true,
+        "ignorePatternParameterDefault": true
+      }
+    }
+  },
+  "created": "2024-06-28T19:48:15.645363+00:00",
+  "modified": "2024-06-28T20:14:17.93976+00:00",
+  "pattern": true
+}

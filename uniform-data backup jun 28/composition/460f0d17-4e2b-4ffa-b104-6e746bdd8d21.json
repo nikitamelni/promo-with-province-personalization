@@ -1,0 +1,29 @@
+{
+  "composition": {
+    "_name": "promo",
+    "_id": "460f0d17-4e2b-4ffa-b104-6e746bdd8d21",
+    "_slug": "promo",
+    "type": "page",
+    "slots": {
+      "content": [
+        {
+          "_id": "071558aa-16ca-4e1d-ba4b-f0b8260e714b",
+          "type": "hero",
+          "_pattern": "5c2217ae-b80b-4d8d-a5d6-1db73728ebc5",
+          "_dataResources": {
+            "Promo Content": {
+              "type": "singlePromo",
+              "variables": {
+                "locale": "",
+                "entryIds": "1tGefx6SE8IbKRvpBSRlnl"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "created": "2024-06-27T21:27:08.022004+00:00",
+  "modified": "2024-06-28T20:04:37.850518+00:00",
+  "pattern": false
+}

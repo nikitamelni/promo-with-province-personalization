@@ -1,0 +1,11 @@
+{
+  "id": "747384b9-a234-436f-ae64-4ff8b1420a6b",
+  "name": "Multiple signals test",
+  "order": -200,
+  "path": "/multiple-signals-test",
+  "type": "composition",
+  "pathSegment": "multiple-signals-test",
+  "data": {},
+  "compositionId": "fef02bde-8e81-4cf0-9de2-949116fa3cd7",
+  "projectMapId": "8a35c419-5150-4f76-aa21-7e4976c9dfcb"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "channelPaidSearchBrand",
+  "name": "channel paid search brand",
+  "cap": 100,
+  "crit": {
+    "op": "&",
+    "type": "G",
+    "clauses": [
+      {
+        "type": "QS",
+        "match": {
+          "cs": false,
+          "op": "=",
+          "rhs": "paidsearch-brand"
+        },
+        "queryName": "channel"
+      }
+    ]
+  },
+  "dur": "t",
+  "description": "",
+  "str": 100
+}

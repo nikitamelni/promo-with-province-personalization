@@ -1,0 +1,21 @@
+{
+  "id": "qs",
+  "name": "qs",
+  "cap": 100,
+  "crit": {
+    "op": "&",
+    "type": "G",
+    "clauses": [
+      {
+        "type": "QS",
+        "match": {
+          "op": "*"
+        },
+        "queryName": "qs"
+      }
+    ]
+  },
+  "dur": "t",
+  "description": "",
+  "str": 50
+}

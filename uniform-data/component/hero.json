@@ -1,0 +1,74 @@
+{
+  "$schema": "https://uniform.app/schemas/json-schema/component-definition/v1.json",
+  "id": "hero",
+  "name": "Hero",
+  "icon": "image-text",
+  "parameters": [
+    {
+      "id": "title",
+      "name": "Title",
+      "type": "text",
+      "helpText": "",
+      "typeConfig": {
+        "required": true
+      },
+      "localizable": true
+    },
+    {
+      "id": "description",
+      "name": "Description",
+      "type": "richText",
+      "helpText": "",
+      "typeConfig": {
+        "elements": {
+          "builtIn": [
+            "h1",
+            "h2",
+            "h3",
+            "h4",
+            "h5",
+            "h6",
+            "unorderedList",
+            "orderedList",
+            "link",
+            "quote",
+            "code",
+            "variable"
+          ]
+        },
+        "required": false,
+        "formatting": {
+          "builtIn": [
+            "bold",
+            "italic",
+            "underline",
+            "strikethrough",
+            "code",
+            "superscript",
+            "subscript"
+          ]
+        }
+      },
+      "localizable": true
+    },
+    {
+      "id": "eligibleProvinces",
+      "name": "Eligible provinces",
+      "type": "$block",
+      "helpText": "",
+      "typeConfig": {
+        "required": true,
+        "allowedTypes": [
+          "province",
+          "$loop"
+        ]
+      }
+    }
+  ],
+  "useTeamPermissions": true,
+  "slots": [],
+  "titleParameter": "title",
+  "canBeComposition": false,
+  "created": "2024-03-06T23:50:48.46588+00:00",
+  "updated": "2024-06-28T20:27:42.662356+00:00"
+}

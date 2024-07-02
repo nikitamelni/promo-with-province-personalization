@@ -1,0 +1,135 @@
+{
+  "composition": {
+    "_name": "About",
+    "_id": "d89f577e-c687-40fa-96af-78ac62fd7ffb",
+    "_slug": "about",
+    "type": "page",
+    "parameters": {
+      "metaTitle": {
+        "type": "text",
+        "value": "About Us"
+      }
+    },
+    "slots": {
+      "content": [
+        {
+          "_id": "2b1d4444-0ada-4a95-b4e5-4cba51755570",
+          "type": "$test",
+          "slots": {
+            "test": [
+              {
+                "_id": "010aae25-672a-4443-baf3-1363c3f1976b",
+                "type": "hero",
+                "parameters": {
+                  "title": {
+                    "type": "text",
+                    "value": "Variant B"
+                  },
+                  "$tstVrnt": {
+                    "type": "testVariant",
+                    "value": {
+                      "id": "A"
+                    }
+                  }
+                }
+              },
+              {
+                "_id": "eb9c5223-2549-4f80-b3a7-8111a6215822",
+                "type": "hero",
+                "parameters": {
+                  "title": {
+                    "type": "text",
+                    "value": "About Us"
+                  },
+                  "$tstVrnt": {
+                    "type": "testVariant",
+                    "value": {
+                      "id": "B"
+                    }
+                  },
+                  "description": {
+                    "type": "richText",
+                    "value": {
+                      "root": {
+                        "type": "root",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "format": "",
+                            "indent": 0,
+                            "version": 1,
+                            "children": [
+                              {
+                                "mode": "normal",
+                                "text": "Some compelling content about us.",
+                                "type": "text",
+                                "style": "",
+                                "detail": 0,
+                                "format": 0,
+                                "version": 1
+                              }
+                            ],
+                            "direction": "ltr"
+                          },
+                          {
+                            "type": "paragraph",
+                            "format": "",
+                            "indent": 0,
+                            "version": 1,
+                            "children": [
+                              {
+                                "mode": "normal",
+                                "text": "And some ",
+                                "type": "text",
+                                "style": "",
+                                "detail": 0,
+                                "format": 0,
+                                "version": 1
+                              },
+                              {
+                                "mode": "normal",
+                                "text": "rich text",
+                                "type": "text",
+                                "style": "",
+                                "detail": 0,
+                                "format": 3,
+                                "version": 1
+                              },
+                              {
+                                "mode": "normal",
+                                "text": ".",
+                                "type": "text",
+                                "style": "",
+                                "detail": 0,
+                                "format": 0,
+                                "version": 1
+                              }
+                            ],
+                            "direction": "ltr"
+                          }
+                        ],
+                        "direction": "ltr"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "parameters": {
+            "test": {
+              "type": "testSelect",
+              "value": "aboutUsHero1"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "created": "2024-03-06T23:50:49.233311+00:00",
+  "modified": "2024-04-30T18:06:02.098948+00:00",
+  "pattern": false
+}

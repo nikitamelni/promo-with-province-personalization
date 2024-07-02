@@ -1,0 +1,38 @@
+{
+  "composition": {
+    "_name": "Home",
+    "_id": "471a701f-3e93-4bb0-8ade-6c4039210927",
+    "_slug": ":locale",
+    "type": "page",
+    "parameters": {
+      "metaTitle": {
+        "type": "text",
+        "locales": {
+          "en-CA": "Title"
+        }
+      }
+    },
+    "slots": {
+      "content": [
+        {
+          "_id": "225ddd91-3f85-4a2b-880f-88db2d2ea663",
+          "type": "hero",
+          "parameters": {
+            "title": {
+              "type": "text",
+              "locales": {
+                "en-CA": "Home page"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "_locales": [
+      "en-CA"
+    ]
+  },
+  "created": "2024-06-28T20:24:50.402122+00:00",
+  "modified": "2024-06-28T20:25:25.856412+00:00",
+  "pattern": false
+}

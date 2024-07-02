@@ -1,0 +1,25 @@
+{
+  "composition": {
+    "_name": "dynamic",
+    "_id": "7efa6a12-3016-408d-9e2d-35ea1fde5c91",
+    "_slug": ":dynamic-id",
+    "type": "page",
+    "slots": {
+      "content": [
+        {
+          "_id": "36dc248e-7744-4815-8557-d2039f9e9b94",
+          "type": "hero",
+          "parameters": {
+            "title": {
+              "type": "text",
+              "value": "You dynamic value is ${id}"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "created": "2024-03-08T18:57:42.099475+00:00",
+  "modified": "2024-03-08T18:59:09.666725+00:00",
+  "pattern": false
+}

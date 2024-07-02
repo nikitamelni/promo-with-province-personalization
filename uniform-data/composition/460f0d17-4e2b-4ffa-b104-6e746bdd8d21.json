@@ -1,0 +1,142 @@
+{
+  "composition": {
+    "_name": "promo",
+    "_id": "460f0d17-4e2b-4ffa-b104-6e746bdd8d21",
+    "_slug": "promo",
+    "type": "page",
+    "slots": {
+      "content": [
+        {
+          "_id": "071558aa-16ca-4e1d-ba4b-f0b8260e714b",
+          "type": "hero",
+          "_pattern": "5c2217ae-b80b-4d8d-a5d6-1db73728ebc5",
+          "_dataResources": {
+            "Promo Content": {
+              "type": "singlePromo",
+              "variables": {
+                "locale": "${locale}",
+                "entryIds": "4lUcFpIppuSHrcgPgskRg5"
+              },
+              "isPatternParameter": true,
+              "ignorePatternParameterDefault": true
+            }
+          }
+        }
+      ]
+    },
+    "_overrides": {
+      "071558aa-16ca-4e1d-ba4b-f0b8260e714b": {
+        "parameters": {
+          "description": {
+            "type": "richText",
+            "locales": {
+              "en-CA": {
+                "root": {
+                  "type": "root",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "format": "",
+                      "indent": 0,
+                      "version": 1,
+                      "children": [
+                        {
+                          "type": "variable",
+                          "version": 1,
+                          "reference": "#jptr:/Promo Content/fields/description"
+                        }
+                      ],
+                      "direction": null
+                    },
+                    {
+                      "type": "paragraph",
+                      "format": "",
+                      "indent": 0,
+                      "version": 1,
+                      "children": [
+                        {
+                          "mode": "normal",
+                          "text": "Selected province: ",
+                          "type": "text",
+                          "style": "",
+                          "detail": 0,
+                          "format": 0,
+                          "version": 1
+                        },
+                        {
+                          "type": "variable",
+                          "version": 1,
+                          "reference": "selected_province"
+                        }
+                      ],
+                      "direction": "ltr"
+                    }
+                  ],
+                  "direction": "ltr"
+                }
+              },
+              "fr-CA": {
+                "root": {
+                  "type": "root",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "format": "",
+                      "indent": 0,
+                      "version": 1,
+                      "children": [
+                        {
+                          "type": "variable",
+                          "version": 1,
+                          "reference": "#jptr:/Promo Content/fields/description"
+                        }
+                      ],
+                      "direction": null
+                    },
+                    {
+                      "type": "paragraph",
+                      "format": "",
+                      "indent": 0,
+                      "version": 1,
+                      "children": [
+                        {
+                          "mode": "normal",
+                          "text": "Selected province: ",
+                          "type": "text",
+                          "style": "",
+                          "detail": 0,
+                          "format": 0,
+                          "version": 1
+                        },
+                        {
+                          "type": "variable",
+                          "version": 1,
+                          "reference": "selected_province"
+                        }
+                      ],
+                      "direction": "ltr"
+                    }
+                  ],
+                  "direction": "ltr"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "_locales": [
+      "en-CA",
+      "fr-CA"
+    ]
+  },
+  "created": "2024-06-27T21:27:08.022004+00:00",
+  "modified": "2024-06-28T20:51:56.293133+00:00",
+  "pattern": false
+}
